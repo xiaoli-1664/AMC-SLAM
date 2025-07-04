@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 
     UpdateConfigFile(argv[2], argv[3]);
 
-    ORB_SLAM3::System SLAM(argv[1], argv[2], ORB_SLAM3::System::MULTICAMERA, true);
+    ORB_SLAM3::System SLAM(argv[1], argv[2], ORB_SLAM3::System::MULTICAMERA, false);
 
     SLAM.LoadAmvImages(vstrImageFilenames, vvTimestamps);
 

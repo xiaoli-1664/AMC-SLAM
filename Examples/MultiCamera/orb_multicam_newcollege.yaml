@@ -1,0 +1,31 @@
+%YAML:1.0
+File.version: 1.0
+dataset: /home/ljj/dataset/mine/
+dataset.id: 0
+Camera.calibfile: [all_camera_info/cam3.json, all_camera_info/cam4.json, all_camera_info/cam1.json, all_camera_info/cam0.json]
+Camera.timefile: [all_camera_info/cam.txt, all_camera_info/cam.txt, all_camera_info/cam.txt]
+Camera.imgfile: [all_camera_images/cam3/, all_camera_images/cam4/, all_camera_images/cam1/, all_camera_images/cam0/]
+Camera.number: 3
+Camera.fps: 30.0
+Camera.bf: 169.00
+Camera.RGB: 1
+Camera.width: 720
+Camera.height: 540
+ThDepth: 60.0
+Gaussian.Qc: [0.02, 0.02, 0.02, 0.002, 0.002, 0.002]
+Velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ORBextractor.nFeatures: 2000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+Viewer.KeyFrameSize: 0.6
+Viewer.KeyFrameLineWidth: 2.0
+Viewer.GraphLineWidth: 1.0
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.7
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -100.0
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000.0

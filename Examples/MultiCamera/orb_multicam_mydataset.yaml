@@ -1,0 +1,34 @@
+%YAML:1.0
+File.version: 1.0
+dataset: /home/ljj/dataset/outdoor2/
+dataset.id: 10
+Camera.calibfile: [all_camera_info/left.json, all_camera_info/right.json, all_camera_info/stereo_left_info.json, all_camera_info/stereo_right_info.json]
+Camera.timefile: [all_camera_info/left_times.txt, all_camera_info/right_times.txt, all_camera_info/cam_stereo_left_times.txt]
+Camera.imgfile: [all_camera_images/left/, all_camera_images/right/, all_camera_images/cam_stereo_left/, all_camera_images/cam_stereo_right/]
+Camera.number: 3
+Camera.fps: 25.0
+Camera.bf: 169.00
+Camera.RGB: 1
+Camera.width: 1280
+Camera.height: 1024
+Extrinsic: 1
+loopClosing: 0
+Image.type: 0
+ThDepth: 35.0
+Gaussian.Qc: [0.02, 0.02, 0.02, 0.002, 0.002, 0.002]
+Velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ORBextractor.nFeatures: 6000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+Viewer.KeyFrameSize: 0.6
+Viewer.KeyFrameLineWidth: 2.0
+Viewer.GraphLineWidth: 1.0
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.7
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -100.0
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000.0
